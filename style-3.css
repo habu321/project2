@@ -1,0 +1,66 @@
+/* top player style */
+body{
+    background: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: antiquewhite;
+    width: 870px;
+    padding: 30px;
+    border-radius: 10px;
+   
+}
+.container:hover{
+    border: 3px solid tomato;
+}
+.section-title{
+    color: blue;
+    margin-top: 3px;
+}
+hr{
+    border: 2px solid salmon;
+}
+.players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-row-gap: 20px;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+}
+.player-name{
+    padding-left: 20px;
+    color:indianred ;
+}
+.player{
+    display: flex;
+}
+
+/* blog section */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+}
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    height: 130px;
+    width: 190px;
+}
+p{
+    color: blueviolet;
+}
+p a{
+    text-decoration: none;
+    color: red;
+}
+.blog-info{
+    padding-left: 20px;
+}
